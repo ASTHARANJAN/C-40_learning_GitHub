@@ -31,6 +31,7 @@ function setup(){
 
 
 function draw(){
+  background("skyblue")
   if(playerCount === 4){
     game.update(1);
   }
